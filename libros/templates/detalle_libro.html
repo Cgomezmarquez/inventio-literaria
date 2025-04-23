@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<section class="container my-5">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <article id="lista">
+                <h1>Libros</h1>
+                <span class="d-block mb-3">
+                    <a href="{% url 'home'}" class="me-2">Home</a>
+                    <a href="{% url 'libros_lista' %}">libros</a>
+                </span>
+
+                <h2>{{ libro.titulo}}</h2>
+                <p><strong>Autor:</strong>{{ libro.autor }}</p>
+                <p><strong>Resumen:</strong>{{ libro.resumen }}</p>
+                <p><strong>Fecha de publicación:</strong>{{ libro.fecha_de_publicacion }}</p>
+            </article>
+        </div>
+                
+        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+            <img id="imagenes" class="img-fluid mt-3 mt-lg-0 w-75" src="{% static 'img/imagenes_libros/'|add:libro.imagen %}" alt="{{ libro.titulo }}">
+        
+        </div>
+    </div>
+</section>
+{% endblock %}

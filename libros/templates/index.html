@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="container my-5">
+    <div class="row">
+        <article id="argumento" class="col-12 col-lg-6">
+            <h1> ¿Por qué se crea esta página?</h1>
+            <p>
+                Inventio literaria es una propuesta enfocada en incentivar la lectura en  personas de todas las edades.
+                <br><br>
+                Despertar el interés por la lectura a quienes visiten este sitio web es nuestro objetivo principal. Te recomendaremos  títulos y autores de varios géneros literarios, para que descubras obras que -según nuestra percepción- pueden ayudarte a encender esa chispa por la literatura.
+            </p> 
+            
+        </article>
+        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+            <img id="mundos" class="img-fluid mt-3 mt-lg-0 " src="{% static 'img/index_image.png' %}" alt="imagen inspiradora de lectura">
+        </div>
+    </div>
+
+</section>
+
+<section class="container my-5">
+    <div class="row">
+        <article id="relacion-con-los-libros" class="col-12 col-lg-8">
+            <h1> ¿Cuál es mi relación con los libros y cómo nació mi hábito por la lectura?</h1>
+            <p>
+                Mi relación con los libros es muy diferente a lo que algunos pueden estar deduciendo. En verdad, el acercamiento a los libros fue un poco tardío, aunque a los 18 años no se puede decir que uno haya adquirido esta pasión demasiado tarde. Realizo esta declaración porque muchos adquieren el hábito de leer a temprana edad.
+                <br>
+                <br>
+                En realidad, más que por una pasión, surgió como una necesidad. Para aquella época, a comienzos del año 2014, iniciaba un curso en inglés. Revisando en internet sobre estrategias para mejorar y acelerar el aprendizaje en una segunda lengua, muchas páginas detallaban cómo la lectura podía contribuir a este propósito. En ese momento fue cuando empecé a leer, y el primer libro fue <i>Harry Potter and the Sorcerers' Stone</i>. Desde aquel momento la lectura se convirtió en mi mejor aliada para aprender y soñar, lo que no logré descubrir en la escuela no por culpa de los profesores, sino por mi falta de voluntad. 
+            </p>
+            <blockquote class="blockquote mt-3">
+                <p class="mb-0">"Los libros no solo abren mundos imaginarios, también abren puertas dentro de nosotros mismos."</p>
+            </blockquote>
+        </article>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container">
+    <div class="row">
+        <div id="selecciones" class="col-12 col-lg-8 text-left my-5">
+            <h1>Libros</h1>
+            <ol>
+            
+            {% for libro in libros_lista %}
+            
+            <li><i class="bi bi-book me-2 text-dark"></i>
+                <a href="{% url 'detalle_libro' libro_id=libro.id %}">
+                    {{ libro.titulo }}
+
+                </a>
+                <span class="libros_lista-autor">
+                    -{{ libro.genero }}
+        
+                </span>
+            </li>
+                {% endfor %}
+            </ol>
+            
+        </div>
+
+        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+            <img src="{% static 'img/lampara_encendida.jpg' %}" alt="biblioteca antigua" class="img-fluid rounded shadow w-75">
+
+        </div>
+
+        
+    </div>
+</div>
+{% endblock %}
+
+
+
+
+

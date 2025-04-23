@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="container my-5">
+    <div class="row">
+        <article class="col-12 col-lg-8">
+            <h1> Acerca de nosotros</h1>
+            <p>
+                <i>Inventio literario</i> surge como una creación personal. Sin embargo, este sitio web tiene un elemento muy especial: cada persona que lo visite y se sienta identificada con el contenido, tendrá la oportunidad de enriquecer este espacio con recomendaciones de libros que también hayan sido  fundamentales en su propio camino hacia el hábito de la lectura.
+                <br><br>
+                Tu contribución la puedes hacer en la seccion de <b><a href="{% url 'recomendaciones' %}">recomendaciones</a></b>. Cada una será revisada y aquellas que se ajusten al propósito del sitio y puedan enriquecerlo, serán añadidas a la sección de <b><a href="{% url 'libros_lista' %}">libros</a></b> 
+            </p>
+
+            <blockquote class="blockquote mt-3">
+                <p>"Una sola persona creó esta página, pero cada lector que llega la transforma. Porque las historias se comparten, las palabras nos conectan y los libros nos hacen comunidad."</p>
+            </blockquote>
+        </article>
+        <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+            <img id="comunidad" class="img-fluid mt-3 mt-lg-0 w-75" src="{% static 'img/comunidad_literaria.jpg' %}" alt="comunidad literaria">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+
+}
+
+
+.logo-ancho {
+    
+    width: 250px;
+    height: auto;
+   
+    align-items: flex-start;
+}
+
+#selecciones {
+    border-right: 1px solid #ccc;
+    padding-right: 1rem ;
+}
+
+.blockquote{
+    color: coral;
+}
+
+#footer {
+    border: 2px solid yellow;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.nav-link {
+    color: darkgrey;
+}
+
+.form-control {
+    border: 4px solid black;
+    
+}
+
+li {
+    margin-bottom: 1rem;
+    margin-inline: 1rem;
+    margin-block-start: 1em;
+}
+
+#mundos {
+    max-width: 100%;
+    width: 300px;
+    border-radius: 10px;
+    height: auto;
+
+}
+
+#comunidad {
+    border-radius: 10px;
+}
+
+
+
