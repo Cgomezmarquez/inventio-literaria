@@ -30,7 +30,7 @@ Proyecto web creado con Django, HTML, CSS y bootstrap con el objetivo de promove
 [Recomendaciones](libros/static/img/shot6.png)
 
 # Header
-![Header](static/img/shot7.png)
+![Header](libros/static/img/shot7.png)
 
 # Footer
 ![Footer](libros/static/img/shot8.png)
