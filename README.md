@@ -27,7 +27,7 @@ Proyecto web creado con Django, HTML, CSS y bootstrap con el objetivo de promove
 ![libro](libros/static/img/shot5.png)
  
 # Página Recomendaciones
-[Recomendaciones](libros/static/img/shot6.png)
+![Recomendaciones](libros/static/img/shot6.png)
 
 # Header
 ![Header](libros/static/img/shot7.png)
