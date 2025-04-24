@@ -11,29 +11,29 @@ Proyecto web creado con Django, HTML, CSS y bootstrap con el objetivo de promove
 # Funcionalidades
 - Presenta una lista de libros mostrando el género literario
 - Permite ver detalles individuales de cada libro
-- Página responsive
+- Diseño responsive para todo tipo de dispositivos
 
 # Capturas de pantalla
 
 # Página de inicio
-![home](static/img/shot1.png)
-![home](static/img/shot2.png)
+![home](libros/static/img/shot1.png)
+![home](libros/static/img/shot2.png)
 
 # Página inventio somos todos
-![Inventio somos todos](static/img/shot3.png)
+![Inventio somos todos](libros/static/img/shot3.png)
 
 #  Página libros
-![libros](static/img/shot4.png) 
-![libro](static/img/shot5.png)
+![libros](libros/static/img/shot4.png) 
+![libro](libros/static/img/shot5.png)
  
 # Página Recomendaciones
-[Recomendaciones](static/img/shot6.png)
+[Recomendaciones](libros/static/img/shot6.png)
 
 # Header
 ![Header](static/img/shot7.png)
 
 # Footer
-![Footer](static/img/shot8.png)
+![Footer](libros/static/img/shot8.png)
 
 # Autor 
 
